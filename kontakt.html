@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="sr">
 <head>
-<title>moj kontakt</title>
+    <meta charset="UTF-8">
+    <title>Moj kontakt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kontakt.css">
 </head>
-<body style="background-color:lavender">
+<body>
+    <div class="container">
+        <h1>Kontakt</h1>
 
-<h1>Kontakt</h1>
-<ul>
-    <li>Adresa: Paje Patka 11 Arilje</li>
-    <li>Telefon: 064/123/4567</li>
-    <li>Email: jovan.puzic7@gmail.com</li>
-</ul>
-<ul>
-    <hr>
-    <label>Unesi ime:</label><br>
-    <input type="text" name="tvojeIme"><br>
-    <label>Unesi email:</label><br>
-    <input type="email" name="tvojEmail"> <br>
-    <label>Unesi poruku:</label><br>
-    <textarea name="textPoruke" id="" cols="30" rows="10"></textarea><br>
-    <input type="submit" value="Posalji">
-    <hr>
-</ul>
-<p><i><a href="index.html">Pocetna</a></i></p>
+        <ul>
+            <li><strong>Adresa:</strong> Paje Patka 11, Arilje</li>
+            <li><strong>Telefon:</strong> 064/123/4567</li>
+            <li><strong>Email:</strong> jovan.puzic7@gmail.com</li>
+        </ul>
 
+        <hr>
+
+        <form>
+            <label>Unesi ime:</label>
+            <input type="text" name="tvojeIme" placeholder="Tvoje ime">
+
+            <label>Unesi email:</label>
+            <input type="email" name="tvojEmail" placeholder="tvoj@email.com">
+
+            <label>Unesi poruku:</label>
+            <textarea name="textPoruke" cols="30" rows="6" placeholder="Napiši poruku ovde..."></textarea>
+
+            <input type="submit" value="Pošalji">
+        </form>
+
+        <hr>
+
+        <p><i><a href="index.html">Početna</a></i></p>
+    </div>
 </body>
 </html>
